@@ -14,6 +14,7 @@ document.getElementById('center-third').addEventListener('click', function () {
 document.getElementById('add-friend').addEventListener('click', function () {
     const friendContainer = document.getElementById('friends');
     const friend = document.createElement('div');
+    friend.classList.add('friend');
     friend.innerHTML = `
         <h3 class="friend-name"> New Friend </h3>
         <p>Lorem ipsum dolor sit amet.</p>
