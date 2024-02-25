@@ -17,8 +17,9 @@ document.getElementById('add-friend').addEventListener('click', function () {
     friend.classList.add('friend');
     friend.innerHTML = `
         <h3 class="friend-name"> New Friend </h3>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit.</p>
     `
     friendContainer.appendChild(friend);
-
-})
+     
+    
+});
